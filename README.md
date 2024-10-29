@@ -19,29 +19,56 @@ Manim requires:
 
 ### Installation Options
 
-#### Chocolatey
-While there are easier options with ```bash```, I would like to show a way requires less setup for people with no shell experience.\
-First, ensure that you are in the admin shell of your PowerShell.\ 
-Run ```Get-ExecutionPolicy```. If it returns Restricted, then run ```Set-ExecutionPolicy AllSigned``` or ```Set-ExecutionPolicy Bypass -Scope Process```.\
-After this is setup successfully you may run\
+You may copy the command inputs via the ```copy to clipboard function``` and in case there is something unclear,
+just research the links I have given below. 
 
-```Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))```
+#### Chocolatey
+While there are easier options with ```bash```,
+I would like to show a way requires less setup for people with no shell experience.<br>
+First, ensure that you are in the admin shell of your PowerShell.
+Run 
+```powershell
+Get-ExecutionPolicy
+```
+ If it returns Restricted, then run 
+ ```powershell
+ Set-ExecutionPolicy AllSigned
+ ```
+ OR 
+ ```powershell
+ Set-ExecutionPolicy Bypass -Scope Process
+ ```
+After this is setup successfully you may run<br>
+
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
 
 ##### Upgrading Chocolatey 
-If you need to update chocolatey, just use\
-```choco upgrade chocolatey```
+If you need to update chocolatey, just use<br>
 
-All this talk about chocolate made me hungry for a chocolate btw best chocolate brand here in Austria is [Milka](https://www.milka.at/) and its best product [Milka-Kuhflecken](https://www.milka.at/produkte/milka-kuhflecken-100g/)
+```powershell
+choco upgrade chocolatey
+```
 
+All this talk about chocolate made me hungry for a chocolate btw best chocolate brand here in Austria is [Milka](https://www.milka.at/) and its best product [Milka-Kuhflecken](https://www.milka.at/produkte/milka-kuhflecken-100g/)<br>
 On to the next step! 
 
 #### Pycairo 
-Next you need to install [Pycairo](https://pypi.org/project/pycairo/) and be careful which version you install.
+Next you need to install [Pycairo](https://pypi.org/project/pycairo/) and be careful which version you install.<br>
 It should be suitable for your current python version. 
 
 
 ### Manim 
-Here you can find a further list of commands and helpful [tips](https://docs.manim.community/en/stable/index.html) and [documentations](https://3b1b.github.io/manim/) 
+Here you can find a further list of commands and helpful [tips](https://docs.manim.community/en/stable/index.html) and [documentations](https://3b1b.github.io/manim/)<br>
 
 ## Links
+- [3Blue1Brown - Manim](https://3b1b.github.io/manim/)
+- [Chocolatey Documentation - Install Options](https://docs.chocolatey.org/en-us/choco/setup/#more-install-options)
+- [Manim Documentation - Main Page](https://docs.manim.community/en/stable/index.html)
+- [Manim Documentation - Installation on Windows (Optional Dependencies)](https://docs.manim.community/en/stable/installation/windows.html#optional-dependencies)
+- [Manim Documentation - Installation on Windows (Required Dependencies)](https://docs.manim.community/en/stable/installation/windows.html#required-dependencies)
+- [YouTube: 3Blue1Brown Video 1](https://www.youtube.com/watch?v=rbu7Zu5X1zI&t=1s)
+- [YouTube: 3Blue1Brown Video 2](https://www.youtube.com/watch?v=KHGoFDB-raE&t=1s)
+- [Milka - Products](https://www.milka.at/alle-produkte)
 
