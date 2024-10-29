@@ -1,2 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:C:/Users/User/PycharmProjects/mymanim/backend/src/mymanim/testmanimfeatures/media/videos/manimmotiontest/480p15/partial_movie_files/ContinuousMotion/1185818338_1595310568_1044211153.mp4'

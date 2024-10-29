@@ -1,0 +1,24 @@
+directories:
+  mirror_module_path: True
+  output: "C:/Users/User/PycharmProjects/mymanim/backend/src/myManimFunctions/media"
+  raster_images: "/Users/PycharmProjects/mymanim/backend/images/raster"
+  vector_images: "/Users/PycharmProjects/mymanim/backend/images/vector"
+  pi_creature_images: "/Users/User/PycharmProjects/mymanim/backend/images/pi_creature/svg"
+universal_import_line: "from manim import *"
+# tex:
+#   executable: "xelatex -no-pdf"
+#   template_file: "ctex_template.tex"
+#   intermediate_filetype: "xdv"
+style:
+  font: "CMU Serif"
+  text_alignment: "CENTER"
+  background_color: "#000000"
+camera_resolutions:
+  default_resolution: "4k"
+file_writer_config:
+  saturation: 1.5
+fps: 30
+window_position: UR
+window_monitor: 0
+full_screen: False
+embed_exception_mode: "Plain"
